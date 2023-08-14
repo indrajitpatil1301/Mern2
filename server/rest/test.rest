@@ -1,0 +1,23 @@
+###
+POST http://localhost:3000/register HTTP/1.1
+Content-Type: application/json
+
+{
+    "name":"indrajit",
+    "email":"indrajitpatil13@gmail.com",
+    "phone":"1234567898",
+    "work":"web dev",
+    "password":"Admin@2022",
+    "cpassword":"Admin@2022"
+}
+
+###
+POST http://localhost:3000/signin HTTP/1.1
+Content-Type: application/json
+
+{
+    
+    "email":"indrajitpatil13@gmail.com",
+    "password":"Admin@2022"
+
+}
